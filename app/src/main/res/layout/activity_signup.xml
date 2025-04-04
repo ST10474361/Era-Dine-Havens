@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wall">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/back"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="5dp"
+        android:background="@drawable/back_icon"
+        app:title="Signup"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:cardCornerRadius="30dp"
+        android:layout_marginBottom="-20dp"
+        android:backgroundTint="#E6EDDD">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="520dp"
+            android:orientation="vertical"
+            android:padding="30dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/create_account"
+                android:textColor="#035106"
+                android:textSize="30sp"
+                android:textStyle="italic"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/please_sign_up_with_your_information"
+                android:alpha="1.1"
+                android:textStyle="italic"/>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/name"
+                android:textStyle="italic"/>
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="362dp"
+                android:layout_height="48dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="@string/havens"
+                android:importantForAutofill="no" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/email_address"
+                android:textStyle="italic"/>
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="362dp"
+                android:layout_height="48dp"
+                android:inputType="textEmailAddress"
+                android:drawableEnd="@drawable/done_icon"
+                android:hint="Eradinehavens@gmail.com"/>
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                android:textStyle="italic"/>
+
+            <EditText
+                android:id="@+id/e_password"
+                android:layout_width="362dp"
+                android:layout_height="48dp"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:hint="frgFChb@86d"/>
+
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Re-Password"
+                android:textStyle="italic"/>
+
+            <EditText
+                android:id="@+id/re_password"
+                android:layout_width="362dp"
+                android:layout_height="48dp"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:hint="frgFChb@86d"/>
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/signup_btn"
+                android:layout_width="300sp"
+                android:layout_height="50dp"
+                android:text="Sign-up"
+                android:layout_marginStart="30dp"
+                android:background="@drawable/search"
+                android:textColor="@color/black"
+                android:textSize="23sp"
+                android:textStyle="italic"
+                app:cornerRadius="35dp" />
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="5dp"/>
+
+            <EditText
+                android:id="@+id/login_a"
+                android:layout_width="342dp"
+                android:layout_height="48dp"
+                android:text="Already Have An Account Login"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EEE6F6">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="50dp">
+
+    <ImageView
+        android:layout_width="55dp"
+        android:layout_height="50dp"
+        android:src="@drawable/starter2"/>
+
+    <Button
+        android:id="@+id/starter_btn"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginStart="20dp"
+        android:text="Starter 18:00pm-18:59pm"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:textColor="@color/white" />
+</LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="25dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:src="@drawable/main4"/>
+
+    <Button
+        android:id="@+id/main_btn"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginStart="20dp"
+        android:text="Main 19:00pm-20:59pm"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:textColor="@color/white" />
+</LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="25dp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp">
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="50dp"
+            android:src="@drawable/dess3"/>
+
+    <Button
+        android:id="@+id/dessert_btn"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginStart="20dp"
+        android:text="Desert 21:00pm-22:00pm"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:textColor="@color/white" />
+</LinearLayout>
+
+    <Button
+        android:id="@+id/dhp_reset"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:layout_marginTop="400dp"
+        android:textSize="25dp"
+        android:layout_marginHorizontal="30dp"/>
+
+
+</LinearLayout>
